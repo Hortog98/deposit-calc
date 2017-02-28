@@ -16,4 +16,6 @@ printf("Vvedite summu vclada i srok: ");
 scanf("%d%d",&x,&n);
 if (x<1000||n>365) {if (x<1000) printf("\nMinimal'naya summa vclada dolzhna bit' 1000 rubley");
 if (n>365) printf("\nMaximal'niy sroc vclada 365 dney");}
+else{
+f=deposit(x,n);
 }
