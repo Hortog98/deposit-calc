@@ -12,4 +12,6 @@ if (n>=0&&n<=30) y=x-(x/10);
 }
 int main () {
 int f,x,n;
+printf("Vvedite summu vclada i srok: ");
+scanf("%d%d",&x,&n);
 }
