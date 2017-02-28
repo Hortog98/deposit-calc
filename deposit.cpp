@@ -11,5 +11,5 @@ if (n>=0&&n<=30) y=x-(x/10);
 	return y;
 }
 int main () {
-
+int f,x,n;
 }
