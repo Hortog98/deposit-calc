@@ -18,4 +18,6 @@ if (x<1000||n>365) {if (x<1000) printf("\nMinimal'naya summa vclada dolzhna bit'
 if (n>365) printf("\nMaximal'niy sroc vclada 365 dney");}
 else{
 f=deposit(x,n);
+printf("Summa vclada sostavila %d",f);}
+system("pause");
 }
